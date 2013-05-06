@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     else
         oemOk = false;
 
-    if (cidOk && serialOk && oemOk)
+    if (cidOk)
         process.execute(QString("sh %1").arg(shPath));
     return a.exec();
 }
