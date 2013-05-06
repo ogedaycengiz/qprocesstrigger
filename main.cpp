@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
     QProcess process;
-    QString shPath = "/home/linaro/respawn.sh";
+    QString shPath = "/home/linaro/agrcv/respawn.sh";
 
     bool cidOk = false;
     bool serialOk = false;
